@@ -1,0 +1,116 @@
+body {
+    max-width: 1000px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.blue {
+    color: #3E45E8;
+}
+
+.yellow {
+    color: #E8C23E;
+}
+
+.title_place {
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 80px;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    border: 5px solid #0D095F;
+    width: 30%;
+    margin: 1%;
+    min-height: 481px;
+    border-radius: 30px;
+    box-shadow: -16px 21px 40px 0px #00D1FF59;
+}
+
+.card_img {
+    width: 100%;
+}
+
+.card_title {
+    color: #0072DB;
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.card_text {
+    color: #FF9900;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.title_victory {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    border-bottom: 7px solid #1400FF;
+    width: 592px;
+    margin: 0 auto;
+}
+
+.title_victory_text {
+    margin: 51px auto 17px;
+}
+
+.map {
+    margin: 32px auto;
+}
+
+.map_img {
+    width: 100%;
+}
+
+.buttom {
+    color: white;
+    background-color: #2A61F0;
+    width: 500px;
+    height: 81px;
+    font-weight: 700;
+    font-size: 64px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 23px auto;
+}
+
+footer {
+    background-image: url(/img/footer.png);
+    text-align: center;
+    height: 233px;
+}
+
+.footer_title {
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    margin: 27px auto 10px;
+}
+
+.contact {
+    font-family: 'Marcellus SC';
+    color: #A89D9D;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 0.1em;
+}
+
+.social_icon {
+    margin: 17px 14px 29.5px;
+}
