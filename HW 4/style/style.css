@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: "Inter";
+}
+
+.header {
+    background-color: brown;
+    background-image: url(../img/header_text.png), url(../img/header.png);
+    background-repeat: no-repeat;
+    background-size: 50%, cover;
+    background-position: 50% 25%;
+    min-height: 100vh;
+}
+
+.container {
+    margin: 0 10%;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_galery {
+    background-color: #231b0c;
+    background-image: url(../img/galery.png), url(../img/galery_foto.png);
+    background-repeat: no-repeat;
+    background-position: 50% 10%, 50% 80%;
+    width: 32%;
+    height: 460px;
+}
+
+.card_sport {
+    background-color: #231b0c;
+    background-image: url(../img/sport.png), url(../img/sport_foto.png);
+    background-repeat: no-repeat;
+    background-position: 50% 10%, 50% 80%;
+    width: 32%;
+    height: 460px;
+}
+
+.card_more {
+    background-color: #231b0c;
+    background-image: url(../img/more.png), url(../img/more_foto.png);
+    background-repeat: no-repeat;
+    background-position: 50% 10%, 50% 80%;
+    width: 32%;
+    height: 460px;
+}
+
+.picture {
+    background-image: url(../img/picture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3%;
+    min-height: 595px;
+}
+
+footer {
+    font-family: "Roboto";
+    margin-top: 3%;
+    background-color: #150f02;
+    background-image: url(../img/enterteinment.png), url(../img/shops.png), url(../img/restourants.png), url(../img/art.png);
+    background-repeat: no-repeat;
+    background-position: 25% 10%, 75% 10%, 25% 35%, 75% 35%;
+    height: 279px;
+}
+
+.contact {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 auto;
+    padding-top: 128px;
+    border-bottom: 10px solid #ff6b00;
+    text-align: center;
+    width: 318px;
+}
+
+.social {
+    text-align: center;
+    padding: 1% 0 0 0;
+}
+
+.middle {
+    margin: 0 32px 0;
+}
