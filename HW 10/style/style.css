@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+ul {
+    padding-left: 1.5625rem;
+}
+
+h2 {
+    font-size: .875rem;
+}
+
+.back {
+    background: #FFB084;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 1.25rem;
+}
+
+.container {
+    margin: 5% 0;
+    padding: 5% 7%;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.container>div {
+    border-radius: 20px;
+    box-shadow: 7px 7px 0px #000000;
+    background: white;
+    padding: .9375rem 1.5625rem;
+}
+
+.johnny {
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.johnny>h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.johnny_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.age {
+    margin-right: 10%;
+}
+
+.bio {
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.iwant {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    font-size: 1.4375rem;
+    font-weight: 700;
+    font-family: 'Work Sans';
+}
+
+.goals {
+    box-shadow: 7px 7px 0px #29A71E !important;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.goals>h2 {
+    color: #29A71E;
+}
+
+.dream {
+    box-shadow: 7px 7px 0px #3675B0 !important;
+    grid-column: 2/3;
+    grid-row: 3/5;
+}
+
+.dream>h2 {
+    color: #3675B0;
+}
+
+.frustrations {
+    box-shadow: 7px 7px 0px #E13535 !important;
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+
+.frustrations>h2 {
+    color: #E13535;
+}
+
+.personality {
+    grid-column
+}
